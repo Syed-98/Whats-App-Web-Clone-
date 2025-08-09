@@ -18,9 +18,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./*"]  // Updated path alias since no src directory
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["./**/*.ts", "./**/*.tsx"],  // Looks in root directory
   "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]
 }
