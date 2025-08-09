@@ -1,0 +1,5 @@
+{
+  "name": "WhatsApp Web Clone",
+  "description": "A responsive, mobile-friendly frontend that looks and behaves like WhatsApp Web, displaying conversations and allowing users to send messages in a simulated environment.",
+  "requestFramePermissions": []
+}
